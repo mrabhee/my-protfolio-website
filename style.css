@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./image/background.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.s1{
+    display: flex;
+
+}
+.s1>.background1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.s1>.background1>.text{
+   position:relative;
+    height: 200px;
+    width: 300px;
+    font-size: 25px;
+    margin: 400px auto auto 200px;
+}
+.s1>.background1>.text>h1{
+    font-family: sofia;
+    font-size: 50px
+}
+.s1>.background1>.text>h1,.s1>.background1>.text>h2,.s1>.background1>.text>h3{
+    margin: 0px;
+}
+
+.s1>.background2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    height: 100vh;
+    
+
+    
+}
+
+
+.s1>.background2>.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 200px;
+    font-size: 30px;
+    gap: 100px;
+}
+.s1>.background2>.navbar>*{
+    color: black;
+    text-decoration: none
+}
+
+.s1>.background2>.navbar>*:hover{
+    color: white;
+    transition: 0.8s;
+    text-shadow:1px 1px #020a06ad;
+}
+
+.s2>.about{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+    gap: 20px;
+}
+.s2>.about>.image{
+    width: 300px;
+    height: 350px;
+    background-image: url(./image/abhishek.jpg);
+    background-size:cover;
+    box-shadow: 0px 0px 30px 5px black;
+    margin: 200px auto auto 300px;
+    border: 2px solid white;
+    
+    
+}
+.s2>.about>.aboutme{
+    height: 100vh;
+    width: 100%;
+}
+.s2>.about>.aboutme>h1{
+    font-family: sofia;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 35%;
+    margin-right: 100px;
+    float: right;
+}
+.s2>.about>.aboutme>h1{
+    color: white;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 150px;
+    float: right;
+}
+.s2>.about>.aboutme>.CV{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px; 
+    padding:10px 20px 10px 20px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    border: 2px solid black;
+    border-radius: 50px ;  
+    font-size: x-large;
+        
+}
+
+.s2>.about>.aboutme>.CV:hover{
+    color: white;
+    transition: 0.8s;
+}
+.s2>.about>.aboutme>*{
+    margin: 5px;
+}
+
+.s2>.about>.aboutme>p{
+    color: white;
+    margin: 0px 100px 0px 50%;
+}
+.s2>.about>.image>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); 
+    color: white;
+    height: 100px;
+    width: 400px;
+    margin-top: 350px;
+    margin-left: -50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.s2>.skills{
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s2>.skills>.skillss{
+    height:500px ;
+    width: 700px;
+    text-align: center;
+}
+.s2>.skills>.skillss>h1{
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: sofia;
+}
+.s2>.skills>.skillss>.progress{
+    padding:20px;
+    font-size: 20px;
+    accent-color: coral;
+    display: flex;
+    flex-direction: column
+}
+
+.s2>.skills>.skillss>.progress>*{
+    padding: 5px;
+}
+
+.s2>.contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2>.contact>.cnt{
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    
+}
+.s2>.contact>.cnt>h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: sofia;
+}
+.s2>.contact>.cnt>.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2>.contact>.cnt>.links>a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    margin: 10px;
+    border:2px solid black;
+    background-color: black;
+    border-radius: 40px;
+    width:500px;
+}
+
+.s2>.contact>.cnt>.links>a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.9s;
+}
